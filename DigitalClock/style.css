@@ -1,0 +1,30 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    font-family:sans-serif;
+}
+.container{
+    border: 2px solid darkcyan;
+    background-color: darkcyan;
+    color: white;
+    border-radius: 10px;
+    padding: 20px 30px;
+    width: 300px;
+    height: 200px;
+}
+h2{
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 50px;
+}
+.container>span{
+    font-size: 30px;
+}
+#hour,#minute,#second{
+    border: 1px solid rgb(123, 200, 206);
+    padding: 10px;
+    border-radius: 5px;
+}

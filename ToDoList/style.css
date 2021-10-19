@@ -1,0 +1,59 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 180px;
+    border: 2px solid darkcyan;
+    background: lightcyan;
+    color: blue;
+}
+ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+ul li{
+    margin: 40px 0 10px 6px;
+    border: 1px solid darkcyan;
+    width: 413px;
+    padding: 9px 20px;
+    position: relative;
+    font-size: 24px;
+    
+}
+ul li span{
+    margin-left: 50px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    cursor: pointer;
+
+}
+label{
+    font-size: 22px;
+    font-weight: bold;
+}
+input{
+    font-size: 22px;
+    outline: none;
+    border: 2px solid darkcyan;
+    padding: 5px 10px;
+    border-radius: 10px;
+    color: blue;
+}
+button{
+    padding: 5px 20px;
+    font-size: 22px;
+    color: blue;
+    border: none;
+    background: rgb(167, 217, 226);
+}
+.closeButton{
+    background: rgb(223, 24, 24);
+    color: #ffff;
+    padding: 9px 15px;
+    font-weight: bold;
+}
